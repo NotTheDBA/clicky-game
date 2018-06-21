@@ -12,6 +12,25 @@ class Board extends React.Component {
         picks: []
     };
 
+    shuffle = (array) => {
+        var currentIndex = array.length, temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+    }
+
     getElements = (age) => {
         return age.level <= this.state.level;
     }
@@ -27,7 +46,6 @@ class Board extends React.Component {
                     level: (this.state.score + 1) === (this.state.level + 1) * (this.state.level + 1) ? this.state.level + 1 : this.state.level
                 })
             )
-        // console.log(this.state.picks)
     };
 
     render() {
@@ -36,7 +54,7 @@ class Board extends React.Component {
             <div>
                 <p className="card-text">Click score: {this.state.score} | Best score: {this.state.best}</p>
                 <div className="board">
-                    {friends.filter(this.getElements).map(element => (
+                    {this.shuffle(friends).filter(this.getElements).map(element => (
                         <ImageCard
                             key={element.name}
                             name={element.name}
