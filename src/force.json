@@ -58,5 +58,41 @@
         "force": "sith",
         "level": 3,
         "image": "s5-Darth-Plagueis.jpg"
+    },
+    {
+        "name": "Young Anakin",
+        "force": "jedi",
+        "level": 3,
+        "image": "p1-young-Anakin.jpg"
+    },
+    {
+        "name": "Padawan Anakin",
+        "force": "jedi",
+        "level": 3,
+        "image": "p2-prime-Anakin.jpg"
+    },
+    {
+        "name": "Emo Anakin",
+        "force": "sith",
+        "level": 3,
+        "image": "p3-bad-Anakin.jpg"
+    },
+    {
+        "name": "Corrupt Anakin",
+        "force": "sith",
+        "level": 3,
+        "image": "p4-corrupt-Anakin.jpg"
+    },
+    {
+        "name": "Darth Anakin",
+        "force": "sith",
+        "level": 3,
+        "image": "p5-Darth-Vader.jpg"
+    },
+    {
+        "name": "Kylo Ren",
+        "force": "sith",
+        "level": 3,
+        "image": "s1-kylo-ren.jpg"
     }
 ]
