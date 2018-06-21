@@ -94,5 +94,59 @@
         "force": "sith",
         "level": 3,
         "image": "s1-kylo-ren.jpg"
+    },
+    {
+        "name": "Even Piell",
+        "force": "jedi",
+        "level": 4,
+        "image": "lv4_Even-Piell.jpg"
+    },
+    {
+        "name": "Dark Jedi",
+        "force": "sith",
+        "level": 4,
+        "image": "lv4-Dark-Jedi.jpg"
+    },
+    {
+        "name": "Pilo Koon",
+        "force": "sith",
+        "level": 4,
+        "image": "lv4-pilo-koon.jpg"
+    },
+    {
+        "name": "Rey",
+        "force": "jedi",
+        "level": 4,
+        "image": "lv4-rey.jpg"
+    },
+    {
+        "name": "Kylo Ren",
+        "force": "sith",
+        "level": 4,
+        "image": "s1-kylo-ren.jpg"
+    },
+    {
+        "name": "Kylo Ren",
+        "force": "sith",
+        "level": 4,
+        "image": "s1-kylo-ren.jpg"
+    },
+    {
+        "name": "Kylo Ren",
+        "force": "sith",
+        "level": 4,
+        "image": "s1-kylo-ren.jpg"
+    },
+    {
+        "name": "Kylo Ren",
+        "force": "sith",
+        "level": 4,
+        "image": "s1-kylo-ren.jpg"
+    },
+    {
+        "name": "Kylo Ren",
+        "force": "sith",
+        "level": 4,
+        "image": "s1-kylo-ren.jpg"
     }
 ]
