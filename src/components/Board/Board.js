@@ -6,10 +6,15 @@ import ImageCard from "../ImageCard";
 
 class Board extends React.Component {
     state = {
+        level: 1,
         score: 0,
         best: 0,
         picks: []
     };
+
+    getElements = (age) => {
+        return age.level <= this.state.level;
+    }
 
     handleIncrement = (img) => {
         this.state.picks.find(o => o === img) ? (
@@ -30,7 +35,7 @@ class Board extends React.Component {
             <div>
                 <p className="card-text">Click score: {this.state.score} | Best score: {this.state.best}</p>
                 <div className="board">
-                    {friends.map(element => (
+                    {friends.filter(this.getElements).map(element => (
                         <ImageCard
                             key={element.name}
                             name={element.name}

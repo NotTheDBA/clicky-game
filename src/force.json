@@ -2,71 +2,61 @@
     {
         "name": "Saesee Tiin",
         "force": "jedi",
-        "health": 120,
-        "attack": 4,
+        "level": 1,
         "image": "j1-Saesee-Tiin.jpg"
     },
     {
         "name": "Aayla Segura",
         "force": "jedi",
-        "health": 140,
-        "attack": 6,
+        "level": 1,
         "image": "j2-Aayla-Segura.jpg"
     },
     {
         "name": "obi-Wan Can-old-be",
         "force": "jedi",
-        "health": 160,
-        "attack": 8,
+        "level": 1,
         "image": "j3-Obi-Wan.jpg"
     },
     {
         "name": "Yoda Boghopper",
         "force": "jedi",
-        "health": 180,
-        "attack": 10,
+        "level": 1,
         "image": "j4-Yoda.jpg"
     },
     {
         "name": "Luke Skywalker",
         "force": "jedi",
-        "health": 200,
-        "attack": 12,
+        "level": 2,
         "image": "j5-Luke-Skywalker.jpg"
     },
     {
         "name": "Darth Vesevan",
         "force": "sith",
-        "health": 120,
-        "attack": 4,
+        "level": 2,
         "image": "s1-Darth-Vesevan.jpg"
     },
     {
         "name": "Darth Maul",
         "force": "sith",
-        "health": 140,
-        "attack": 6,
+        "level": 2,
         "image": "s2-Darth-Maul.jpg"
     },
     {
         "name": "Darth Revan",
         "force": "sith",
-        "health": 160,
-        "attack": 8,
+        "level": 2,
         "image": "s3-Darth-Revan.jpg"
     },
     {
         "name": "Darth Sidious",
         "force": "sith",
-        "health": 180,
-        "attack": 10,
+        "level": 2,
         "image": "s4-Darth-Sidious.jpg"
     },
     {
         "name": "Darth Plagueis",
         "force": "sith",
-        "health": 200,
-        "attack": 12,
+        "level": 3,
         "image": "s5-Darth-Plagueis.jpg"
     }
 ]
