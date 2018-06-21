@@ -6,26 +6,37 @@ import ImageCard from "../ImageCard";
 
 class Board extends React.Component {
     state = {
-      count: 0
+      count: 0,
+      picks: []
     };
 
-    handleIncrement = () => {
-        this.setState({ count: this.state.count + 1 });
-        console.log(this.state.count);
+    handleIncrement = (img) => {
+        this.state.picks.find(o => o === img) ? (
+            this.setState({ count: 0 ,  picks: []})
+        ) : (
+            this.setState({ 
+                count: this.state.count + 1,  
+                picks:  this.state.picks.concat(img)})
+        )
+       console.log(this.state.picks)
       };
     
   render() {
 return (
 
+    <div>
+    <p className="card-text">Click Count: {this.state.count}</p>
     <div className="board">
     { friends.map(element => (
-        <ImageCard
+     <ImageCard
+        key={element.name}
         name={element.name}
         image={"./assets/img/" + element.image}
-        handleIncrement={this.handleIncrement}
+        handleIncrement={this.handleIncrement.bind(this, element)}
         />
         ))
     }
+    </div>
   </div>
   );
 }
