@@ -52,7 +52,7 @@ class Board extends React.Component {
         return (
 
             <div>
-                <p className="card-text">Click score: {this.state.score} | Best score: {this.state.best}</p>
+                <p className="card-text">Click score: {this.state.score} <br/>Best score: {this.state.best}</p>
                 <div className={"board size-" + (this.state.level)}>
                     {this.shuffle(friends).filter(this.getElements).map(element => (
                         <ImageCard

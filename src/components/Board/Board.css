@@ -1,6 +1,6 @@
 .board {
   padding-top: 50px;
-  background: #ECEFF1;
+  background: rgb(0, 133, 160);
   height: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -8,14 +8,13 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-text {
-  justify-content: space-around;
-  margin-left:auto;
-  margin-right:auto;
+  text-align: center;
+  font-family: 'StarJedi', 'Anton', sans-serif;
 }
 
 .size-1 {

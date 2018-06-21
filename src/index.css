@@ -1,5 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@font-face {
+    font-family: 'StarJedi';
+    src: url('Starjedi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'StarJedi', 'Anton', sans-serif;
+  font-size: 16px;
+  background: #005F73;
+  color: #f0f8ff;
 }
