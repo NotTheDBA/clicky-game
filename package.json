@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "https://notthedba.github.io/clicky-game",
   "dependencies": {
-    "react": "^16.8.6",
     "react-dom": "^16.9.0",
+    "react": "^16.9.0",
     "react-scripts": "3.0.1"
   },
   "scripts": {
@@ -17,6 +17,6 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^2.1.0"
+    "gh-pages": "^2.1.1"
   }
 }
