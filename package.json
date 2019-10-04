@@ -5,7 +5,7 @@
   "homepage": "https://notthedba.github.io/clicky-game",
   "dependencies": {
     "react-dom": "^16.9.0",
-    "react": "^16.9.0",
+    "react": "^16.10.2",
     "react-scripts": "3.1.2"
   },
   "scripts": {
