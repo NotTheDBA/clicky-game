@@ -1,13 +1,21 @@
 {
   "name": "clicky",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Jedi Click Game is a light memory game built on React.",
   "private": true,
   "homepage": "https://notthedba.github.io/clicky-game",
+  "main": "index.js",
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.1.2"
     "react-scripts": "3.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotTheDBA/clicky-game.git"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +25,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "devDependencies": {
-    "gh-pages": "^2.1.1"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NotTheDBA/clicky-game/issues"
   }
 }
